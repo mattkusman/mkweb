@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{padding: 10, fontSize:16}}>
       Keaton sucks
     </div>
   );

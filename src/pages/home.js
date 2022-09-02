@@ -1,9 +1,20 @@
-const Home = () => {
+import React from "react";
+import Box from '@mui/material/Box'
+
+export const Home = () => {
+
     return (
-        <div style={{height: '95vh'}}>
-            home
-        </div>
-    );
+        <>
+            <Box sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                minHeight: '93vh',
+                backgroundColor: 'brown',
+            }}>
+
+            </Box>
+        </>
+    )
 }
 
 export default Home;

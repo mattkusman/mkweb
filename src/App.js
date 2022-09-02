@@ -12,7 +12,7 @@ function App() {
 
     return (
       <Router>
-          <div style={{backgroundColor: '#011C27'}}>
+          <div style={{backgroundColor: '#262626', color: '#ACBFA4'}}>
               <MainMenu />
               <Routes>
                   <Route path='/' element={<Home/>} />

@@ -26,7 +26,7 @@ const MainMenu = (open, changeOpen) => {
                             textDecoration: 'none',
                         }}
                     >
-                        MK
+                        MK1
                     </Typography>
                     <MenuItem component={Link} to="/">
                         <Typography textAlign="center" fontFamily="monospace" fontWeight={500} >Home</Typography>
